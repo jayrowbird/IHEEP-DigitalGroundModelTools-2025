@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x64;x86</Platforms> 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Cord.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NewTriangle\NewTriangle.csproj" />
+  </ItemGroup>
+
+</Project>

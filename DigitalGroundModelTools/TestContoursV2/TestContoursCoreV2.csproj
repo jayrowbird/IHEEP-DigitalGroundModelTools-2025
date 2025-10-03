@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TestData\J5P0100Points.obj" />
+    <None Remove="TestData\UstnJTestModel.obj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="OutputObj\Markeer.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="TestData\J5P0100Points.obj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\UstnJTestModel.obj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Output\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NewContour\NewContour.csproj" />
+    <ProjectReference Include="..\NewTriangle\NewTriangle.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,76 @@
+# Aspose.3D Wavefront OBJ Exporter
+# Copyright 2004-2025 Aspose Pty Ltd.
+# File created: 05/08/2025 21:03:08
+
+newmtl Iron_man_leg:red
+	Ka 0 0 0
+	Kd 0.4 0.050799992 0.050799992
+	Ke 0 0 0
+	illum 2
+	Ks 0.5 0.5 0.5
+	Ns 19.698307
+	d 1
+	Tr 0
+newmtl HD_Ironman:red
+	Ka 0 0 0
+	Kd 0.8 0.8 0.8
+	Ke 0 0 0
+	illum 2
+	Ks 0.2 0.2 0.2
+	Ns 64.00001
+	d 1
+	Tr 0
+newmtl Iron_man_leg:gold
+	Ka 0 0 0
+	Kd 0.6008 0.48059246 0.13518001
+	Ke 0 0 0
+	illum 2
+	Ks 0.5 0.5 0.5
+	Ns 19.999998
+	d 1
+	Tr 0
+newmtl HD_Ironman:silver
+	Ka 0 0 0
+	Kd 0.8 0.8 0.8
+	Ke 0 0 0
+	illum 2
+	Ks 0.2 0.2 0.2
+	Ns 64.00001
+	d 1
+	Tr 0
+newmtl lambert1
+	Ka 0.4 0.4 0.4
+	Kd 0.4 0.4 0.4
+	Ke 0 0 0
+	illum 2
+	Ks 1 1 1
+	Ns 1.9999999
+	d 1
+	Tr 0
+newmtl HD_Ironman:yellow
+	Ka 1 1 1
+	Kd 1 1 1
+	Ke 1 1 1
+	illum 2
+	Ks 0.2 0.2 0.2
+	Ns 64.00001
+	d 1
+	Tr 0
+newmtl HD_Ironman:black
+	Ka 0 0 0
+	Kd 0.8 0.8 0.8
+	Ke 0 0 0
+	illum 2
+	Ks 0.2 0.2 0.2
+	Ns 64.00001
+	d 1
+	Tr 0
+newmtl HD_Ironman:darksilver
+	Ka 0 0 0
+	Kd 0.8 0.8 0.8
+	Ke 0 0 0
+	illum 2
+	Ks 0.2 0.2 0.2
+	Ns 64.00001
+	d 1
+	Tr 0
