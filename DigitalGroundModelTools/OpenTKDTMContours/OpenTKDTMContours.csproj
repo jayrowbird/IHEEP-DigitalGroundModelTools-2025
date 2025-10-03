@@ -9,10 +9,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="shaders\Lighting\BasicLighting.fs" />
+    <None Remove="shaders\Lighting\BasicLighting.vs" />
+    <None Remove="shaders\OffScreenFramebuffer\TestFragment.shader" />
+    <None Remove="shaders\OffScreenFramebuffer\TestVertex.shader" />
     <None Remove="TestData\UstnJTestModelPoints.obj" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="shaders\Lighting\BasicLighting.fs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="shaders\Lighting\BasicLighting.vs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="shaders\OffScreenFramebuffer\TestFragment.shader">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="shaders\OffScreenFramebuffer\TestVertex.shader">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="TestData\J5P0100Points.obj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
